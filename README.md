@@ -42,3 +42,6 @@ docker build -f Dockerfile -t aws-api .
 docker run -d -p 7001:80 -e "ASPNETCORE_ENVIRONMENT=Development" --name aws-api aws-api
 ```
 #### ‼️Until 7-12-2025 Docker has no vulnerabilities.
+
+### Version:
+1.0
